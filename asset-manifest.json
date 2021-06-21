@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.js": "/nlw06-letmeask/static/js/main.850347ec.chunk.js",
+    "main.js.map": "/nlw06-letmeask/static/js/main.850347ec.chunk.js.map",
+    "runtime-main.js": "/nlw06-letmeask/static/js/runtime-main.fd6582eb.js",
+    "runtime-main.js.map": "/nlw06-letmeask/static/js/runtime-main.fd6582eb.js.map",
+    "static/js/2.81aedc74.chunk.js": "/nlw06-letmeask/static/js/2.81aedc74.chunk.js",
+    "static/js/2.81aedc74.chunk.js.map": "/nlw06-letmeask/static/js/2.81aedc74.chunk.js.map",
+    "index.html": "/nlw06-letmeask/index.html",
+    "static/js/2.81aedc74.chunk.js.LICENSE.txt": "/nlw06-letmeask/static/js/2.81aedc74.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.fd6582eb.js",
+    "static/js/2.81aedc74.chunk.js",
+    "static/js/main.850347ec.chunk.js"
+  ]
+}
