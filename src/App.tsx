@@ -23,7 +23,7 @@ export function App() {
 
   // Verificação para identificar se o usuario já se logou alguma vez.
   useEffect(() => {
-    auth.onAuthStateChanged(user => {
+    const unsubscribe = auth.onAuthStateChanged(user => {
       if (user) {
         const { displayName, photoURL, uid } = user;
 
@@ -37,7 +37,11 @@ export function App() {
           avatar: photoURL,
         });
       }
-    })
+    });
+
+    return () => {
+      unsubscribe();
+    }
   }, []);
 
   async function signInWithGoogle() {
