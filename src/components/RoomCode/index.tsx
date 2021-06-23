@@ -12,6 +12,7 @@ export function RoomCode({ code }: RoomCodeProps) {
 
   return (
     <button
+      className="room-code"
       onClick={copyRoomCodeToClipboard}
     >
       <div>
