@@ -1,11 +1,12 @@
 import { FormEvent, useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+
+import { Container } from './styles';
 import logoImg from '../../assets/images/logo.svg';
 import { Button } from '../../components/Button';
 import { RoomCode } from '../../components/RoomCode';
 import { useAuth } from '../../hooks/useAuth';
 import { database } from '../../services/firebase';
-import './styles.scss';
 
 type FirebaseQuestions = Record<string, {
   author: {
@@ -91,7 +92,7 @@ export function Room() {
   }
 
   return (
-    <div id="page-room">
+    <Container>
       <header>
         <div className="content">
           <img src={logoImg} alt="Letmeask" />
@@ -133,6 +134,6 @@ export function Room() {
           </div>
         </form>
       </main>
-    </div>
+    </Container>
   );
 }

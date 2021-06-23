@@ -1,5 +1,5 @@
 import copyImg from '../../assets/images/copy.svg';
-import './styles.scss';
+import { Container } from './styles';
 
 type RoomCodeProps = {
   code: string;
@@ -11,7 +11,7 @@ export function RoomCode({ code }: RoomCodeProps) {
   }
 
   return (
-    <button
+    <Container
       className="room-code"
       onClick={copyRoomCodeToClipboard}
     >
@@ -19,6 +19,6 @@ export function RoomCode({ code }: RoomCodeProps) {
         <img src={copyImg} alt="Copiar código da sala" />
       </div>
       <span>Sala #{code}</span>
-    </button>
+    </Container>
   );
 }
