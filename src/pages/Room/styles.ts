@@ -51,7 +51,7 @@ export const Container = styled.div`
         padding: 16px;
         border-radius: 8px;
         background: #fefefe;
-        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+        box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
         resize: vertical;
         min-height: 130px;
       }
@@ -96,4 +96,8 @@ export const Container = styled.div`
       }
     }
   }
+`;
+
+export const QuestionList = styled.div`
+  margin-top: 32px;
 `;
