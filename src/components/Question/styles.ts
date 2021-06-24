@@ -19,6 +19,31 @@ export const Container = styled.div`
     justify-content: space-between;
     align-items: center;
     margin-top: 24px;
+
+    button {
+      background: transparent;
+
+      &.like-button {
+        display: flex;
+        align-items: flex-end;
+        color: #737380;
+        gap: 6px;
+
+        transition: filter 0.2s;
+
+        &.liked {
+          color: #835afd;
+
+          svg path {
+            stroke: #835afd;
+          }
+        }
+
+        &:hover {
+          filter: brightness(0.7);
+        }
+      }
+    }
   }
 `;
 
