@@ -1,14 +1,15 @@
 {
   "files": {
-    "main.js": "/nlw06-letmeask/static/js/main.912f5510.chunk.js",
-    "main.js.map": "/nlw06-letmeask/static/js/main.912f5510.chunk.js.map",
+    "main.js": "/nlw06-letmeask/static/js/main.f3451246.chunk.js",
+    "main.js.map": "/nlw06-letmeask/static/js/main.f3451246.chunk.js.map",
     "runtime-main.js": "/nlw06-letmeask/static/js/runtime-main.fd6582eb.js",
     "runtime-main.js.map": "/nlw06-letmeask/static/js/runtime-main.fd6582eb.js.map",
-    "static/js/2.91a66b80.chunk.js": "/nlw06-letmeask/static/js/2.91a66b80.chunk.js",
-    "static/js/2.91a66b80.chunk.js.map": "/nlw06-letmeask/static/js/2.91a66b80.chunk.js.map",
+    "static/js/2.7d1a8246.chunk.js": "/nlw06-letmeask/static/js/2.7d1a8246.chunk.js",
+    "static/js/2.7d1a8246.chunk.js.map": "/nlw06-letmeask/static/js/2.7d1a8246.chunk.js.map",
     "index.html": "/nlw06-letmeask/index.html",
-    "static/js/2.91a66b80.chunk.js.LICENSE.txt": "/nlw06-letmeask/static/js/2.91a66b80.chunk.js.LICENSE.txt",
+    "static/js/2.7d1a8246.chunk.js.LICENSE.txt": "/nlw06-letmeask/static/js/2.7d1a8246.chunk.js.LICENSE.txt",
     "static/media/copy.2f36f99e.svg": "/nlw06-letmeask/static/media/copy.2f36f99e.svg",
+    "static/media/delete.22ba6e00.svg": "/nlw06-letmeask/static/media/delete.22ba6e00.svg",
     "static/media/google-icon.df15d8e5.svg": "/nlw06-letmeask/static/media/google-icon.df15d8e5.svg",
     "static/media/illustration.ae7276f0.svg": "/nlw06-letmeask/static/media/illustration.ae7276f0.svg",
     "static/media/login.4ca8665f.svg": "/nlw06-letmeask/static/media/login.4ca8665f.svg",
@@ -16,7 +17,7 @@
   },
   "entrypoints": [
     "static/js/runtime-main.fd6582eb.js",
-    "static/js/2.91a66b80.chunk.js",
-    "static/js/main.912f5510.chunk.js"
+    "static/js/2.7d1a8246.chunk.js",
+    "static/js/main.f3451246.chunk.js"
   ]
 }
