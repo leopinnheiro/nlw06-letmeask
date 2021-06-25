@@ -2,13 +2,13 @@ import { FormEvent, useState } from "react";
 import { useParams } from "react-router-dom";
 
 import { Container, QuestionList } from "./styles";
-import logoImg from "../../assets/images/logo.svg";
 import { Button } from "../../components/Button";
 import { RoomCode } from "../../components/RoomCode";
 import { useAuth } from "../../hooks/useAuth";
 import { database } from "../../services/firebase";
 import { Question } from "../../components/Question";
 import { useRoom } from "../../hooks/useRoom";
+import { HomeLogo } from "../../components/HomeLogo";
 
 type RoomParams = {
   id: string;
@@ -68,7 +68,7 @@ export function Room() {
     <Container>
       <header>
         <div className="content">
-          <img src={logoImg} alt="Letmeask" />
+          <HomeLogo />
           <RoomCode code={roomId} />
         </div>
       </header>

@@ -3,10 +3,10 @@ import { Link, useHistory } from "react-router-dom";
 
 import { Container } from './styles';
 import { Slogan } from "../../components/Slogan";
-import logoImg from '../../assets/images/logo.svg';
 import { Button } from '../../components/Button';
 import { useAuth } from "../../hooks/useAuth";
 import { database } from "../../services/firebase";
+import { HomeLogo } from "../../components/HomeLogo";
 
 export function NewRoom() {
   const { user } = useAuth();
@@ -15,8 +15,8 @@ export function NewRoom() {
 
   async function handleCreateNewRoom(event: FormEvent) {
     event.preventDefault();
-    
-    if (newRoom.trim() === ''){
+
+    if (newRoom.trim() === '') {
       return;
     }
 
@@ -34,7 +34,7 @@ export function NewRoom() {
       <Slogan />
       <main>
         <div className="main-content">
-          <img src={logoImg} alt="Letmeask" />
+          <HomeLogo />
           <h2>Criar uma nova sala</h2>
           <form onSubmit={handleCreateNewRoom}>
             <input

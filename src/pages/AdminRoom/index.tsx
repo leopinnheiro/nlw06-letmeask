@@ -2,7 +2,6 @@ import { useHistory, useParams } from "react-router-dom";
 import { database } from "../../services/firebase";
 
 import { Container, QuestionList } from "./styles";
-import logoImg from "../../assets/images/logo.svg";
 import deleteImage from "../../assets/images/delete.svg";
 import checkImage from "../../assets/images/check.svg";
 import answerImage from "../../assets/images/answer.svg";
@@ -11,6 +10,7 @@ import { RoomCode } from "../../components/RoomCode";
 //import { useAuth } from "../../hooks/useAuth";
 import { Question } from "../../components/Question";
 import { useRoom } from "../../hooks/useRoom";
+import { HomeLogo } from "../../components/HomeLogo";
 
 type RoomParams = {
   id: string;
@@ -57,7 +57,7 @@ export function AdminRoom() {
     <Container>
       <header>
         <div className="content">
-          <img src={logoImg} alt="Letmeask" />
+          <HomeLogo />
           <div>
             <RoomCode code={roomId} />
             <Button isOutlined onClick={handleEndRoom}>
